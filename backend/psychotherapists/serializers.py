@@ -3,7 +3,7 @@ from rest_framework import serializers
 from .models import Psychotherapist
 
 
-class PsychotherapistSerializer(serializers.HyperlinkedModelSerializer):
+class PsychotherapistSerializer(serializers.ModelSerializer):
     class Meta:
         model = Psychotherapist
         fields = ['id']
