@@ -1,0 +1,2 @@
+export const SET_THERAPISTS = 'SET_THERAPISTS'
+export const SET_THERAPIST = 'SET_THERAPIST'
